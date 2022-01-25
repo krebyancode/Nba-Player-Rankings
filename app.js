@@ -9,7 +9,7 @@ window.addEventListener("load", () => {
 
 const getListOfAverageStats = async () => {
   const url =
-    "https://api.sportradar.us/nba/trial/v7/en/seasons/2021/REG/leaders.json?api_key=vr8u2qhmpyns5n66vasx6mb2";
+    "https://cors-anywhere.herokuapp.com/https://api.sportradar.us/nba/trial/v7/en/seasons/2021/REG/leaders.json?api_key=vr8u2qhmpyns5n66vasx6mb2";
   const response = await fetch(url);
 
   const data = await response.json();
