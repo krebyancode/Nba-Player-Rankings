@@ -1,4 +1,6 @@
 # Nba-Player-Rankings
 2021-22 season player stats ranking
 
-https://github.com/krebyancode/Nba-Player-Rankings/blob/main/page.gif
+Data is fetched from an RESTful API, listed in a table.
+
+https://krebyancode.github.io/Nba-Player-Rankings/
